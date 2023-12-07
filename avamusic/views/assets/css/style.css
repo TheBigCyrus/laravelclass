@@ -1,0 +1,50 @@
+a {
+    text-decoration: none !important;
+}
+body {
+    overflow-x: hidden;
+}
+.background-orange {
+    background-color: #fc3b00;
+}
+.color-orange {
+    color: #fc3b00;
+}
+.bg-nav{
+    background-color: #010305;
+}
+.bg-search{
+    background-color: #202326;
+}
+.bg-sidebar{
+    background-color: #101316;
+    height: 100%;
+}
+.sidebar-size{
+   font-size :  0.8rem;
+   width: 200px;
+}
+html,body{
+    height: 100%;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.height-type{
+    height: 150px;
+}
+.height-type{
+    height: 150px;
+}
+.p-type {
+position: absolute;
+top: 30%;
+}
+.h-singer{
+    height: 200px;
+}
+
+.bg-singer{
+    background-color: #010305;
+}
