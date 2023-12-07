@@ -15,7 +15,7 @@
               alt="...">
             <div class="card-body">
               <p class="card-text text-center text-white">
-                <a href="singersProfile?singerID=<?= $singer['ID'] ?>">
+                <a href="singersProfile?ID=<?= $singer['ID'] ?>">
                   <small>
                     <?= $singer['Name'] ?>
                   </small>

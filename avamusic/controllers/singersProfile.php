@@ -1,6 +1,6 @@
 <?php
-if (isset($_GET["singerID"])) {
-$singerProfile = $_GET['singerID'];
+if (isset($_GET["ID"])) {
+$singerProfile = $_GET['ID'];
 }
     /** @var mysqli $db */
     $statment = $db->query("SELECT musics.*, singers.Name SingerName FROM `musics` JOIN `singers` ON musics.SingerID = singers.ID where musics.SingerID = $singerProfile ORDER BY `ID` DESC;");
